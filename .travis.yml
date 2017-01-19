@@ -9,8 +9,6 @@ deploy:
   file_glob: true
   file: dist/mac/*.dmg
   skip_cleanup: true
-  on:
-    tags: true
 notifications:
   email:
     on_success: always
