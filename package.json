@@ -40,7 +40,7 @@
     "electron": "1.4.11",
     "electron-packager": "~8.4.0",
     "devtron": "^1.4.0",
-    "electron-builder": "^8.6.0"
+    "electron-builder": "^11.5.1"
   },
   "build": {
     "appId": "com.github.qmk-firmware-flasher",
