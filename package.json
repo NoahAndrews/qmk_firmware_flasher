@@ -6,9 +6,10 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
-    "postinstall": "install-app-deps",
     "pack": "build",
-    "dist": "build"
+    "dist": "build",
+    "postinstall": "install-app-deps",
+    "version": "node packaging/update-bintray-version.js && git add packaging/bintray-travis.json"
   },
   "repository": {
     "type": "git",
