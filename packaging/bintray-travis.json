@@ -5,12 +5,13 @@
     "subject": "noahandrews"
   },
   "version": {
-    "name": "8.8.8"
+    "name": "8.8.8  "
   },
   "files": [
     {
       "includePattern": "dist/mac/(mac-.*.asar)",
       "uploadPattern": "$1"
     }
-  ]
+  ],
+  "publish": true
 }
