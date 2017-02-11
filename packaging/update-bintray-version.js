@@ -9,4 +9,4 @@ let bintrayObj = JSON.parse(bintrayJson);
 
 bintrayObj.version.name = process.env.npm_package_version;
 
-fs.writeFileSync(bintrayJsonPath, JSON.stringify(bintrayObj, null, 2));
+//fs.writeFileSync(bintrayJsonPath, JSON.stringify(bintrayObj, null, 2));
