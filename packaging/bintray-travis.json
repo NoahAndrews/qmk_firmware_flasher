@@ -5,7 +5,12 @@
     "subject": "noahandrews"
   },
   "version": {
-    "name": "v7.8.9"
+    "name": "v7.8.10"
   },
-  "files": [{"includePattern": "dist/mac/(.*)", "uploadPattern": "docs/$1"}]
+  "files": [
+    {
+      "includePattern": "dist/mac/(.*)",
+      "uploadPattern": "docs/$1"
+    }
+  ]
 }
