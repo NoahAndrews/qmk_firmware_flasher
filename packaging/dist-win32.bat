@@ -7,7 +7,7 @@ set OUTPUT_DIR=..\dist\windows
 set PACKAGE_DIR="%OUTPUT_DIR%\QMK Firmware Flasher-%PLATFORM%-%ARCH%"
 set VERSION=%1
 
-set WIX_DIR="C:\Program Files (x86)\WiX Toolset v3.10\bin"
+set WIX_DIR="%WIX%bin"
 
 pushd
 
@@ -55,7 +55,7 @@ if not defined APPVEYOR (
 
 call node package.js
 
-copy windows-installer\* %PACKAGE_DIR%
+copy internal\windows-installer\* %PACKAGE_DIR%
 
 copy ..\build\windows.ico %PACKAGE_DIR%
 copy ..\build\icon.iconset\icon_32x32@2x.png %PACKAGE_DIR%\windows.png
